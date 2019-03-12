@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Peach
+  - Pizza
+  - Star
+  - Bird
+  - Door
+  - Platform
+  - Action
+  - Intense
+  - Spikes
+  - PlayArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - VerticalWall
+  - RedWall
+  - Platforms
+  - DesignBlock
+  - Star
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: B2
+    uniqueID: 2498097009
+    locked: 0
+  - name: Background
+    uniqueID: 2359457131
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

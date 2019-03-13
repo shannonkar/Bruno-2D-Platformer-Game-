@@ -128,7 +128,7 @@ public class ItemHandler : MonoBehaviour
         }
     }
 
-    //player looses life when they hit spikes
+    //player looses life when they hit bird
     void OnCollisionStay2D(Collision2D col)
     {
         if (col.collider.CompareTag("Bird"))

@@ -11,6 +11,7 @@ public class TimerScript : MonoBehaviour
 {
     Text text;
     public float timeLeft;
+   
 
     //This method gets the text from the UI engine in the game at the start of the scene
     void Start()
@@ -21,10 +22,19 @@ public class TimerScript : MonoBehaviour
     //This method subtracts one second from the timer every frame
     void Update()
     {
+        if (Mathf.Round(timeLeft) == 0.0) {
+            TimeOver();
+
+        }
         timeLeft -= Time.deltaTime;
         text.text = "Time left: " + Mathf.Round(timeLeft);
 
 
+    }
+    public void TimeOver() {
+       
+        text.color = Color.red;
+        SceneManager.LoadScene("TitleScene");
     }
  
 }

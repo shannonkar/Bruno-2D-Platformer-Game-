@@ -32,7 +32,6 @@ public class TimerScript : MonoBehaviour
 
     }
     public void TimeOver() {
-       
         text.color = Color.red;
         SceneManager.LoadScene("TitleScene");
     }
